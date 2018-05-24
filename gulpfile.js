@@ -38,4 +38,6 @@ gulp.task('watch', function() {
   gulp.watch('src/parts/*.html', ['html']);
 });
 
+gulp.task('build', ['compass', 'ts', 'html']);
+
 gulp.task('default', [ 'html', 'css', 'js' ]);
