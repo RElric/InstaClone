@@ -1,4 +1,4 @@
-#InstaClone - Fake Instagram connect page
+# InstaClone - Fake Instagram connect page
 Page réalisée au M2 360°Digital à #SUPDEWEB Paris pour Julien Noyer.
 
 Enoncé : 
@@ -16,4 +16,4 @@ Projet visible à l'adresse :
 Set-up projet:
 * Run *npm install*
 * Run *gulp build*
-* Open /app/index.html
+* Open */app/index.html*
