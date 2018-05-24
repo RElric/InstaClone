@@ -1,0 +1,21 @@
+html,
+body {
+  background-color: $bg-gray;
+}
+
+.wrapper {
+  background-color: $white;
+  border: 1px solid $gray;
+  padding: 25px;
+  margin-bottom: 15px;
+
+  &.no-border {
+    background-color: transparent;
+    border: 0;
+  }
+}
+
+.flex {
+  display: flex;
+  justify-content: space-between;
+}

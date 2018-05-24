@@ -1,0 +1,41 @@
+#modalBox {
+  display: none;
+
+  .modalbg {
+
+    background-color: rgba(255,255,255,0.5);
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    z-index: 1;
+  }
+
+  .modalcontent {
+    @include box-shadow(darken($gray, 50) 0 0 10px);
+    @include translateX(-50%);
+
+    position: absolute;
+    z-index: 2;
+    top: 100px;
+    left: 50%;
+    bottom: 1px solid $gray;
+    background-color: $white;
+    width: 95%;
+    max-width: 500px;
+
+    h2 {
+      color: $blue;
+      font-size: 20px;
+    }
+
+    p {
+      font-size: 16px;
+    }
+
+    #modalEmail {
+      color: $blue;
+    }
+  }
+}

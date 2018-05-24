@@ -1,0 +1,31 @@
+.form {
+  form {
+    input {
+      display: block;
+      width: 100%;
+      background-color: $bg-gray;
+      border: 0;
+      margin-bottom: 5px;
+    }
+    input[type=text],
+    input[type=password]{
+      padding: 10px;
+      border: 1px solid darken($bg-gray, 10%);
+    }
+
+    input[type=submit] {
+      text-align: center;
+      background-color: $blue;
+      color: $white;
+      padding-top: 10px;
+      padding-bottom: 10px;
+      font-size: 18px;
+      font-weight: 800;
+    }
+  }
+
+  .alter a {
+    display: block;
+    text-align: center;
+  }
+}

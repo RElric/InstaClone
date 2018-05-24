@@ -1,0 +1,38 @@
+h1 {
+  color: $gray;
+  font-size: 14px;
+
+  .black {
+    color: $black;
+  }
+}
+
+main.container {
+  max-width: 900px;
+  display: block;
+  margin: 25px auto;
+  padding-left: 500px;
+  background-image: url('../img/mockup.png');
+  background-repeat: no-repeat;
+  background-position: center left;
+  -webkit-background-size: contain;
+  background-size: contain;
+
+  @include from($tablet) {
+    margin: 100px auto;
+  }
+
+  @include under($tablet) {
+    background-image: none;
+    padding-left: 0;
+  }
+
+  .logo {
+    width: 75%;
+    margin: 0 auto;
+  }
+}
+
+.copyright {
+  color: $gray;
+}

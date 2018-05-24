@@ -1,0 +1,14 @@
+.errors {
+  display: none;
+  background: lighten(#C3423F, 47%);
+  border: 1px solid #C3423F;
+  color: #C3423F;
+  font-size: 12px;
+  margin-bottom: 5px;
+  padding: 15px;
+
+  p {
+    padding: 0;
+    margin: 0;
+  }
+}

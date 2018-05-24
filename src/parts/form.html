@@ -1,0 +1,27 @@
+<div class="wrapper form">
+  <div class="logo">
+    <!-- partial:../assets/img/logo_instagram.svg -->
+    <!-- partial -->
+  </div>
+  <form action="" id="formConnect">
+    <label for="email" class="screen-reader">Adresse E-Mail</label>
+    <input type="text" name="email" id="email" placeholder="Adresse E-Mail">
+    <div id="errorEmail" class="errors">
+      <p class="text-center">L'email n'est pas de la forme contact@site.fr</p>
+    </div>
+    <label for="mdp" class="screen-reader">Mot de passe</label>
+    <input type="password" name="mdp" id="mdp" placeholder="Mot de passe">
+    <div id="errorMDP" class="errors">
+      <p class="text-center">Mot de passe incorrect</p>
+    </div>
+    <input type="submit" id="btnCon" value="Se connecter">
+    <div id="errors" class="errors">
+      <p class="text-center">L'email ou le mot de passe sont incorrect <br/>(Voir même les deux&nbsp;!)</p>
+    </div>
+  </form>
+  <div class="alter">
+    <p class="text-center">ou</p>
+    <a class="fake-link" href=""><span class="fa fa-facebook-square"></span> Se connecter avec Facebook</a>
+    <a class="fake-link" href="">Mot de passe oublié</a>
+  </div>
+</div>
